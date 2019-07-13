@@ -1,0 +1,44 @@
+.UCenter-bg {
+  background-image: url(http://pic1.win4000.com/wallpaper/2019-06-21/5d0c7e99ed7b0.jpg);
+  background-size: cover;
+  height: 500rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.bg{
+   width: 100%;
+  height: 200rpx;
+}
+.gif-wave{
+   position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx; 
+}
+.touxiang{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 50%;
+ display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50rpx;
+  box-shadow: 2px 2px 2px #888888;
+}
+.nickName{
+  position: absolute;
+  top: 280rpx;
+  font-weight: bold;
+  font-size: 35rpx;
+}

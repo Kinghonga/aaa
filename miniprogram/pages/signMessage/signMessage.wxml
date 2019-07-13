@@ -1,0 +1,12 @@
+<text>{{text}}</text>
+<block wx:for-items="{{signMessage}}" wx:key="{{index}}" wx:for-item="item">
+  <!-- <view>{{index}}{{item.nickName}}</view> -->
+  <view class="cu-timeline">
+<view class="cu-item text-blue">
+     <view class="bg-cyan content">
+      <text>{{item.time}}</text> {{item.week}}   
+      <text class="namestyle">  {{item.nickName}}</text>    签到一次 
+    </view>
+  </view>
+</view>
+</block>

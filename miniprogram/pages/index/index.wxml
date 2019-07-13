@@ -1,0 +1,6 @@
+<view class="container">
+      <view>
+          <button class="Signin_text" bindtap="signinClick" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class="Signin">签到</button>
+      </view>
+       <text>距离:{{juli}}</text>
+</view>

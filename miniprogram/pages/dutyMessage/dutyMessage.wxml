@@ -1,0 +1,30 @@
+<!--pages/dutyMessage/dutyMessage.wxml-->
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>星期一
+  </view>
+</view>
+<view class="grid col-5 padding-sm">
+  <view class="padding-sm" wx:for="{{list}}" wx:key wx:if="{{item}}">
+    <view class="text-{{item.name}} text-center">
+      {{item.title}}
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>星期三
+  </view>
+</view>
+<view class="grid col-5 padding-sm">
+  <view class="padding-sm" wx:for="{{list}}" wx:key wx:if="{{item}}">
+    <view class="text-{{item.name}} text-center">
+      {{item.title}}
+    </view>
+  </view>
+</view>
+
+<view style="color:silver">
+<text>tips：暂时还没想好~</text>
+</view>

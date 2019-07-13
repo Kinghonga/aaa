@@ -1,0 +1,4 @@
+/* pages/signMessage/signMessage.wxss */
+.namestyle{
+  font-size: 35rpx;
+}

@@ -1,0 +1,10 @@
+
+<view class="all">
+  <view class="text_tips">授权后,才能进行签到喔</view>
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-grey lg" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" style="background-color:green">
+  点击授权
+  </button>
+</view>
+</view>
+

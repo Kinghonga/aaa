@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Signin{
+    width: 300rpx;
+    height: 300rpx;
+    background-color: orange;
+    border-radius: 100%;
+    line-height: 300rpx;
+    text-align: center;
+    margin-top: 400rpx;
+    box-shadow: 6px 5px 6px #888888;
+}

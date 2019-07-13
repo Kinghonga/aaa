@@ -1,0 +1,43 @@
+<!--pages/userMessage/userMessage.wxml-->
+<view class="cu-list menu {{menuBorder?'sm-border':''}} {{menuCard?'card-menu margin-top':''}}">
+
+<view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-weixin text-green"></text>
+        <text class="text-grey">昵称</text>
+      </view>
+       <view class="action">{{nickName}}</view>
+</view>
+
+<view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-myfill text-orange"></text>
+        <text class="text-grey">姓名</text>
+      </view>
+       <view class="action">{{realName}}</view>
+</view>
+
+<view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-circlefill text-blue"></text>
+        <text class="text-grey">年级</text>
+      </view>
+       <view class="action">{{grade}}</view>
+</view>
+
+<view class="cu-item {{menuArrow?'arrow':''}}">
+      <view class="content">
+        <text class="cuIcon-medal text-orange"></text>
+        <text class="text-grey">职位</text>
+      </view>
+      <view class="action">{{position}}</view>
+</view>
+
+<view class="grid col-5 padding-sm">
+<navigator url="../../pages/register/register">
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-cyan">修改</button>
+  </view>
+</navigator>
+</view>
+</view>

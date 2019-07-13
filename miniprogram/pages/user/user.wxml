@@ -1,0 +1,45 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <image src="{{avatarUrl}}" class="touxiang"></image>
+    <text class="nickName">{{nickName}}</text>
+    <image src="https://image.weilanwl.com/gif/wave.gif" class="gif-wave" mode="scaleToFill"></image>
+  </view>
+
+
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+    <navigator url="../../pages/userMessage/userMessage" 
+    hover-class="none" class="content">
+        <text class="cuIcon-profile text-grey"></text>
+        <text class="text-grey">个人信息</text>
+      </navigator>
+    </view>
+
+    <view class="cu-item arrow">
+      <navigator url="../../pages/signMessage/signMessage" 
+   class="content">
+        <text class="cuIcon-edit text-green"></text>
+        <text class="text-grey">签到记录</text>
+      </navigator>
+    </view>
+
+    <view class="cu-item arrow">
+    <navigator url="../../pages/dutyMessage/dutyMessage" 
+    hover-class="none" class="content">
+        <text class="cuIcon-searchlist text-red"></text>
+        <text class="text-grey">值班信息</text>
+       </navigator>
+    </view>
+
+    <view class="cu-item arrow">
+      <navigator url="../../pages/optionMessage/optionMessage" 
+    hover-class="none" class="content">
+        <text class="cuIcon-writefill text-cyan"></text>
+        <text class="text-grey">意见反馈</text>
+      </navigator>
+    </view>
+
+
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
