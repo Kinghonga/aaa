@@ -5,5 +5,4 @@
 
 ![image](https://github.com/Kinghonga/images/blob/master/1.png )  
 ![image](https://github.com/Kinghonga/images/blob/master/2.png )
-![image](https://github.com/Kinghonga/images/blob/master/3.png ) 
 ![image](https://github.com/Kinghonga/images/blob/master/4.png ) 
